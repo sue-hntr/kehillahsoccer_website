@@ -1,1 +1,64 @@
-<%= yield %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kehillah Soccer League</title>
+	<link rel="stylesheet" type="text/css" 
+	href="/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1 class="topper">
+			Kehillah Soccer
+		</h1><!--close topper-->
+<!--NAVIGATION-->
+		<nav>
+			<ul>
+				<li>
+					<a href="/index.erb">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/gallery">
+						Gallery
+					</a>
+				</li>
+				<li>
+					<a href="/register">
+						Player Registration
+					</a>
+				</li>
+				<li>
+					<a href="/contact">
+						Contact Us
+					</a> 
+				</li>
+				<li>
+					<a href="/important.erb">
+						Important Info
+					</a> 
+				</li>
+				<li>
+					<a href="/volunteer">
+						Volunteer
+					</a> 
+				</li>
+				<li>
+					<a href="/calendar">
+						Calendar
+					</a>
+				</li>
+				<li>
+					<a href="/sponsors">
+						Sponsor Us
+					</a> 
+				</li>
+			</ul>
+		</nav>
+<!--close NAVIGATION-->
+<!--********* INFORMATION SPACE OPEN  ********-->
+<%=yield%>
+<!--********* INFORMATION SPACE CLOSED  ********-->
+</div> <!--close wrapper-->
+</body>
+</html>
