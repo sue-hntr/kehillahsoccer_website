@@ -27,25 +27,34 @@ nav {
 	width: 250px;
 	background-color: #CCFFFF;
 	float: left;
-	margin-bottom: 300px;
+	margin-bottom: 900px;
 	margin-right: 20px;
 }
+
 a{
 	font-family: sans-serif;
 	font-weight: bold;
 }
+
 a:link{
 	color: #009999;
 	text-decoration: none;
 }
+
 a:hover{
 	color: gray;
 	text-decoration: underline;
 }
+
 a:active{
 	color: gray;
 	text-decoration: underline;
 }
+
+a:visited { 
+    color: #009999;
+}
+
 li {
 	font-size: 20px;
 	list-style-type: none;
@@ -90,4 +99,49 @@ p{
 	padding-right: 10px;
 	font-family: sans-serif;
 	font-size: 1.2em;
+}
+/*/**************sponsors page layout***********/
+#sponsors {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+
+/*/**************form style***********/
+form {
+	background-color: #FFFFFF;
+	padding-left: 280px;
+/*	padding-bottom:50px;*/
+	width: 620px;
+/*	float: center;
+	position: absolute;*/
+}
+
+.form_roles_selection {
+	color:#3c3c3c;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	padding-left: 60px;
+	line-height: 30px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+  	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #EEE9E3;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 2px solid #009999;
 }
